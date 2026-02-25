@@ -19,7 +19,6 @@ Your OpenClaw agent runs 24/7 — but do you know if it's secure? Milo Watch che
 
 ### Install
 ```bash
-# Copy the skill to your OpenClaw skills directory
 git clone https://github.com/getmilodev/milo-watch.git
 cp -r milo-watch ~/.openclaw/skills/milo-watch
 ```
@@ -63,19 +62,29 @@ Score: 3/6 checks passed
 Recommendation: Set an API key and switch exec to allowlist mode
 ```
 
-## Pro Features (Coming Soon)
+## Need More? → Milo Watch Pro
 
-- 📈 Historical trend tracking
-- 💰 Token cost analysis & optimization
-- 📱 WhatsApp/Telegram connection monitoring  
-- 🔧 Automated fix suggestions
-- 📧 Weekly summary email reports
+The free tier covers the essentials. **[Milo Watch Pro](https://github.com/getmilodev/milo-watch-pro)** goes deeper:
+
+| Feature | Free | Pro ($9/mo) |
+|---------|------|-------------|
+| Core security checks (6) | ✅ | ✅ |
+| Token cost analysis | ❌ | ✅ |
+| Session bloat detection | ❌ | ✅ |
+| Memory system health | ❌ | ✅ |
+| Network exposure scan | ❌ | ✅ |
+| SSH security audit | ❌ | ✅ |
+| 7-day historical trends | ❌ | ✅ |
+| Automated fix commands | ❌ | ✅ |
+| Priority support | ❌ | ✅ |
+
+**[$9/month — Subscribe →](https://buy.stripe.com/00w8wO5WdgTl1hg4CafIs06)**
 
 ## Links
 
-- [Full blog: OpenClaw Security Guide](https://github.com/getmilodev/milo-shield)
-- [Free Security Audit](https://getmilo.dev)
-- [Milo Shield — Automated Hardening ($29)](https://getmilo.dev/products)
+- [Milo Watch Pro](https://github.com/getmilodev/milo-watch-pro) — Advanced monitoring
+- [Security Blog](https://github.com/getmilodev/milo-shield) — OpenClaw security guides
+- [All Products](https://getmilo.dev/products)
 
 ## License
 
