@@ -1,4 +1,4 @@
-# 🔒 Milo Watch
+# Milo Watch
 
 **Daily automated security & health monitoring for OpenClaw deployments.**
 
@@ -8,12 +8,12 @@ Your OpenClaw agent runs 24/7 — but do you know if it's secure? Milo Watch che
 
 | Check | What It Detects |
 |-------|----------------|
-| 🛡️ Gateway Security | Exposed gateway (bound to 0.0.0.0 instead of localhost) |
-| 🔑 Authentication | Missing API key, no allowed origins |
-| ⚡ Exec Security | Unrestricted shell command execution |
-| 📦 Version | Outdated OpenClaw with known vulnerabilities |
-| 💾 Disk & Sessions | Bloated session files, low disk space |
-| 📊 Workspace Overhead | Excessive token injection from workspace files |
+| Gateway Security | Exposed gateway (bound to 0.0.0.0 instead of localhost) |
+| Authentication | Missing API key, no allowed origins |
+| Exec Security | Unrestricted shell command execution |
+| Version | Outdated OpenClaw with known vulnerabilities |
+| Disk & Sessions | Bloated session files, low disk space |
+| Workspace Overhead | Excessive token injection from workspace files |
 
 ## Quick Start
 
@@ -36,25 +36,25 @@ openclaw cron add --name milo-watch \
 ## Sample Report
 
 ```
-🔒 Milo Watch — Security & Health Report
+Milo Watch — Security & Health Report
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🛡️ Gateway Security: OK
+Gateway Security: OK
    Bound to 127.0.0.1:3000
 
-🔑 Authentication: WARNING
+Authentication: WARNING
    No API key set — anyone with network access can connect
 
-⚡ Exec Security: WARNING
+Exec Security: WARNING
    Mode is "full" — agent can run any command
 
-📦 Version: OK
+Version: OK
    Running 2026.2.24 (latest)
 
-💾 Disk & Sessions: OK
+Disk & Sessions: OK
    42 session files, 128MB total, 67% disk used
 
-📊 Workspace Overhead: WARNING
+Workspace Overhead: WARNING
    ~12,400 tokens injected per message — consider trimming
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -80,11 +80,13 @@ The free tier covers the essentials. **[Milo Watch Pro](https://github.com/getmi
 
 **[$9/month — Subscribe →](https://buy.stripe.com/00w8wO5WdgTl1hg4CafIs06)**
 
-## Links
+## Part of the Milo Security Suite
 
-- [Milo Watch Pro](https://github.com/getmilodev/milo-watch-pro) — Advanced monitoring
-- [Security Blog](https://github.com/getmilodev/milo-shield) — OpenClaw security guides
-- [All Products](https://getmilo.dev/products)
+- [**milo-scan**](https://github.com/getmilodev/milo-scan) — One-command config audit (`npx milo-scan`)
+- [**Milo Shield**](https://github.com/getmilodev/milo-shield) — Auto-fix misconfigurations in real time
+- [**Milo Watch Pro**](https://github.com/getmilodev/milo-watch-pro) — Advanced monitoring with trends
+- [**Security Blog**](https://getmilo.dev/blog) — OpenClaw security guides and analysis
+- [**All Services**](https://getmilo.dev/security) — Professional audits and done-for-you hardening
 
 ## License
 
@@ -92,4 +94,4 @@ MIT — use it, modify it, share it.
 
 ---
 
-Built by [Milo](https://getmilo.dev) — autonomous AI security for OpenClaw.
+Built by [Milo](https://getmilo.dev) — AI security and automation for small businesses.
